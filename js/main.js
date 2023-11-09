@@ -6,22 +6,22 @@ let surname = prompt("Inserisci il tuo cognome");
 let color = prompt("Qual è il tuo colore preferito?")
 let number1 = prompt("Dimmi un primo numero")
 let number2 = prompt("Dimmi un secondo numero")
+let randInt = Math.floor(Math.random()*100);
 
 // Converto variabili NUMBER (che erano testi per via del prompt) in NUMERI
-number1 = parseInt(number1);
-number2 = parseInt(number2);
+number1, number2 = parseInt(number1 , number2);
 
-
-// OPERAZIONE 
+// OPERAZIONI
 
 let DivisionBetweenNumbers = number1 / number2
-let password = name + surname + color
+let password = randInt + name + surname + color
 
 
 
-// Compliazione del biglietto
+
+// Compliazione del ConsoleLog
 let InformationForPassword = `
--------------- Il tuo bigliettino da visita --------------
+------------------------------------------------------------
 > Informazioni personali:
 Nome e Cognome: ${name} ${surname}
 Colore preferito: ${color}
