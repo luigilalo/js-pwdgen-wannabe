@@ -33,3 +33,6 @@ La tua password è: ${password}
 `;
 
 console.log(InformationForPassword);
+
+// Qui posso poi compilare l'eventuale pagina HTML prodisposta.
+document.getElementById("password").innerHTML = password;
