@@ -9,8 +9,8 @@ let number2 = prompt("Dimmi un secondo numero")
 let randInt = Math.floor(Math.random()*100);
 
 // Converto variabili NUMBER (che erano testi per via del prompt) in NUMERI
-number1, number2 = parseInt(number1 , number2);
-
+number1 = parseInt(number1);
+number2 = parseInt(number2);
 // OPERAZIONI
 
 let DivisionBetweenNumbers = number1 / number2
